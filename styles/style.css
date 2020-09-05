@@ -2,6 +2,7 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
+@import url(../fonts/stylesheet.css);
 html,
 body,
 div,
@@ -435,7 +436,7 @@ header,
 menu,
 nav,
 section {
-  font-family: "Roboto", sans-serif;
+  font-family: "SF Pro Text", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -549,3 +550,61 @@ a:focus {
     background: #343c43; }
 
 /*=====Variables=====*/
+/*=====Variables=====*/
+.services-main {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  font-size: 1.6rem; }
+  .services-main .service-title {
+    margin-bottom: 1.1rem;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600; }
+  .services-main .mob-container {
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 0 1.4rem; }
+    .services-main .mob-container .service-card-container {
+      width: 100%;
+      min-height: 26rem;
+      margin-bottom: 2rem;
+      border-radius: 2rem;
+      -webkit-box-shadow: 0 0.1rem grey;
+              box-shadow: 0 0.1rem grey;
+      overflow: hidden; }
+      .services-main .mob-container .service-card-container .service-background {
+        height: 16.7rem;
+        background-image: url("../images/bg.png"); }
+      .services-main .mob-container .service-card-container .service-info {
+        padding: 1.9rem 1.4rem 1.4rem; }
+        .services-main .mob-container .service-card-container .service-info .tags-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+        .services-main .mob-container .service-card-container .service-info .service-tag {
+          height: 3rem;
+          padding: 0 1.5rem;
+          margin-right: 0.8rem;
+          background: #f6f6f6;
+          border-radius: 1.5rem;
+          line-height: 3rem;
+          font-size: 1.2rem;
+          font-weight: 500;
+          text-align: center; }
+          .services-main .mob-container .service-card-container .service-info .service-tag:last-of-type {
+            margin-right: 0; }
+
+@media screen and (max-width: 374px) {
+  .services-main {
+    padding: 2rem 0; }
+    .services-main .mob-container .service-card-container .service-info .service-tag {
+      padding: 0 1rem; } }
