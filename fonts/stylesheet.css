@@ -4,6 +4,7 @@
     src: url('SFProText-Light.eot?#iefix') format('embedded-opentype'),
         url('SFProText-Light.woff2') format('woff2'),
         url('SFProText-Light.woff') format('woff'),
+        url('FontsFree-Net-SFProText-Light.ttf') format('ttf'),
         url('SFProText-Light.svg#SFProText-Light') format('svg');
     font-weight: 300;
     font-style: normal;
@@ -16,6 +17,7 @@
     src: url('SFProText-Medium.eot?#iefix') format('embedded-opentype'),
         url('SFProText-Medium.woff2') format('woff2'),
         url('SFProText-Medium.woff') format('woff'),
+        url('FontsFree-Net-SFProText-Medium.ttf') format('ttf'),
         url('SFProText-Medium.svg#SFProText-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
@@ -28,8 +30,22 @@
     src: url('SFProText-Semibold.eot?#iefix') format('embedded-opentype'),
         url('SFProText-Semibold.woff2') format('woff2'),
         url('SFProText-Semibold.woff') format('woff'),
+        url('FontsFree-Net-SFProText-Senibold.ttf') format('ttf'),
         url('SFProText-Semibold.svg#SFProText-Semibold') format('svg');
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('SFProText-Bold.eot');
+    src: url('SFProText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Bold.woff2') format('woff2'),
+        url('SFProText-Bold.woff') format('woff'),
+        url('FontsFree-Net-SFProText-Bold.ttf') format('ttf'),
+        url('SFProText-Bold.svg#SFProText-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }

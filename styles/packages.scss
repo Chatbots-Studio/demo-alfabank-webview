@@ -1,0 +1,58 @@
+.packages {
+  .package-name {
+    font-size: 4rem;
+    line-height: 14rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .package-top {
+    position: relative;
+    .package-badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 3rem;
+      padding: 0 1rem;
+      background: #b30514;
+      color: #ffd1d5;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 3rem;
+      border-bottom-left-radius: 1.5rem;
+    }
+  }
+  .package-background-basic {
+    background: linear-gradient(to right, #165860, #35bdce);
+  }
+  .package-background-pro {
+    background: linear-gradient(to right, #981421, #f0142f);
+  }
+  .package-background-max {
+    background: linear-gradient(to right, #151515, #2c2c2c);
+  }
+}
+.services-main {
+  &.packages {
+    .mob-container {
+      .service-card-container {
+        min-height: 23.8rem;
+        .service-background {
+          &.package-top {
+            height: 14rem;
+            padding: 0 1.5rem;
+          }
+        }
+        .service-info {
+          padding: 1.5rem 1.5rem 0.7rem;
+          .tags-container {
+            margin: 0 -0.4rem;
+          }
+          .service-tag {
+            padding: 0 1rem;
+            margin: 0 0.4rem 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
