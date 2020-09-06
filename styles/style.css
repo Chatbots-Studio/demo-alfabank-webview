@@ -560,7 +560,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #fff;
+  background: #f9f9f9;
   font-size: 1.6rem; }
   .services-main .service-title {
     margin-bottom: 1.1rem;
@@ -575,15 +575,26 @@ a:focus {
       width: 100%;
       min-height: 26rem;
       margin-bottom: 2rem;
-      border-radius: 2rem;
-      -webkit-box-shadow: 0 0.1rem grey;
-              box-shadow: 0 0.1rem grey;
+      border-radius: 1.5rem;
+      -webkit-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.04);
+              box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.04);
       overflow: hidden; }
       .services-main .mob-container .service-card-container .service-background {
         height: 16.7rem;
-        background-image: url("../images/bg.png"); }
+        background-position-x: center; }
+        .services-main .mob-container .service-card-container .service-background-1 {
+          background-image: url("../images/bg-1.png"); }
+        .services-main .mob-container .service-card-container .service-background-2 {
+          background-image: url("../images/bg-2.png"); }
+        .services-main .mob-container .service-card-container .service-background-3 {
+          background-image: url("../images/bg-3.png"); }
+        .services-main .mob-container .service-card-container .service-background-4 {
+          background-image: url("../images/bg-4.png"); }
+        .services-main .mob-container .service-card-container .service-background-5 {
+          background-image: url("../images/bg-5.png"); }
       .services-main .mob-container .service-card-container .service-info {
-        padding: 1.9rem 1.4rem 1.4rem; }
+        padding: 1.9rem 1.4rem 1.4rem;
+        background: #fff; }
         .services-main .mob-container .service-card-container .service-info .tags-container {
           display: -webkit-box;
           display: -ms-flexbox;
