@@ -140,3 +140,9 @@
     }
   }
 }
+
+@media screen and (max-width: 374px) {
+  .fund .fund-cards .fund-card.fund-input-card {
+    padding: 1rem;
+  }
+}
