@@ -21,7 +21,7 @@ if ($('#form').length) {
     });
     $('#connect-btn').click(function () {
         if (!($('#connect-btn').hasClass('disabled'))) {
-            $(location).attr('href', 'https://m.me/114032010428817?pro');
+            $(location).attr('href', 'https://m.me/114032010428817?ref=pro');
         }
     })
 }
