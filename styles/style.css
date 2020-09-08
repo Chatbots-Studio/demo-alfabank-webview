@@ -583,10 +583,9 @@ a:focus {
       .services-main .mob-container .service-card-container .service-background {
         height: 16.7rem;
         background-position-x: center;
-        background-position-y: center;
         background-size: cover; }
         .services-main .mob-container .service-card-container .service-background-1 {
-          background-image: url("../images/bg-1.jpg"); }
+          background-image: url("../images/bg-1.png"); }
         .services-main .mob-container .service-card-container .service-background-2 {
           background-image: url("../images/bg-2.png"); }
         .services-main .mob-container .service-card-container .service-background-3 {
