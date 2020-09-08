@@ -909,3 +909,8 @@ a:focus {
       line-height: 5.4rem; }
     .pay .pay-list .pay-list-item:last-of-type .pay-list-item-title {
       border-bottom: 0; }
+
+.profile {
+  background: #f2f2f6; }
+  .profile .profile-image {
+    padding-top: 1rem; }
