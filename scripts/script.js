@@ -24,4 +24,12 @@ if ($('#form').length) {
             $(location).attr('href', 'https://m.me/114032010428817?ref=pro');
         }
     })
+};
+
+if ($('#my-card').length) {
+    $('#enter').click(function () {
+        $('.my-card-enter').css('display', 'none');
+        $('.my-card-image-open').css('display', 'block');
+        $('.my-card').css('background', '#f6f6f7');
+    });
 }

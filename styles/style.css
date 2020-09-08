@@ -914,3 +914,8 @@ a:focus {
   background: #f2f2f6; }
   .profile .profile-image {
     padding-top: 1rem; }
+
+.my-card .my-card-enter-btn {
+  padding-top: 2.5rem; }
+.my-card .my-card-image-open {
+  display: none; }
