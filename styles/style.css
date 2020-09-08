@@ -886,3 +886,26 @@ a:focus {
     padding: 1rem; } }
 .transfer .fund-options .fund-option .fund-option-text {
   width: 7.4rem; }
+
+.pay .pay-list {
+  padding-top: 1rem; }
+  .pay .pay-list .pay-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer; }
+    .pay .pay-list .pay-list-item .pay-list-item-icon {
+      width: 4.2rem;
+      padding-left: 0.2rem;
+      padding-right: 1.4rem; }
+    .pay .pay-list .pay-list-item .pay-list-item-title {
+      width: calc(100% - 4.2rem);
+      height: 5.5rem;
+      border-bottom: 0.1rem solid #CBCCCD;
+      font-size: 1.7rem;
+      line-height: 5.4rem; }
+    .pay .pay-list .pay-list-item:last-of-type .pay-list-item-title {
+      border-bottom: 0; }

@@ -1,0 +1,27 @@
+.pay {
+    .pay-list {
+        padding-top: 1rem;
+        .pay-list-item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .pay-list-item-icon {
+                width: 4.2rem;
+                padding-left: 0.2rem;
+                padding-right: 1.4rem;
+            }
+            .pay-list-item-title {
+                width: calc(100% - 4.2rem);
+                height: 5.5rem;
+                border-bottom: 0.1rem solid #CBCCCD;
+                font-size: 1.7rem;
+                line-height: 5.4rem;
+            }
+            &:last-of-type {
+                .pay-list-item-title {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
