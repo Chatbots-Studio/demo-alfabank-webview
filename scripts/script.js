@@ -44,3 +44,15 @@ if ($('#advantages').length) {
         $(location).attr('href', 'https://m.me/114032010428817?ref=max');
     })
 }
+
+if ($('#card-conditions').length) {
+    $('#plus').click(function() {
+        if ($('.card-conditions-agreement-extended').css('display') === 'block') {
+            $('.card-conditions-agreement-extended').slideUp();
+            $('#plus').css('transform', 'rotate(-45deg)');
+        } else {
+            $('.card-conditions-agreement-extended').slideDown();
+            $('#plus').css('transform', 'rotate(45deg)');
+        }
+    })
+}

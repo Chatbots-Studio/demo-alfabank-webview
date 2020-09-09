@@ -54,5 +54,9 @@
   }
   .card-conditions-agreement-extended {
       padding-top: 2rem;
+      display: none;
+  }
+  #plus {
+      transition: 0.5s all ease-in-out;
   }
 }

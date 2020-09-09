@@ -1044,4 +1044,8 @@ input {
     .card-conditions .card-conditions-agreement .card-conditions-agreement-text {
       font-size: 1.7rem; }
   .card-conditions .card-conditions-agreement-extended {
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    display: none; }
+  .card-conditions #plus {
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out; }
