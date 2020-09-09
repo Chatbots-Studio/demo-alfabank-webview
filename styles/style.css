@@ -474,6 +474,10 @@ img {
 a:focus {
   outline: none; }
 
+input {
+  outline: none;
+  border-radius: 0; }
+
 /*Custom styles*/
 .main {
   min-height: 100vh;

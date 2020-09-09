@@ -1,9 +1,4 @@
 if ($('#form').length) {
-    $('.tel-mask').inputmask({
-        mask: "+99 999 999 99 99",
-        placeholder: '',
-        showMaskOnHover: false
-    });
     $('.required-field').each(function () {
         var input = $(this);
         input.on('input', function () {
@@ -40,5 +35,12 @@ if ($('#my-card').length) {
             var newVal = $('#password').val() + $(this).val();
             $('#password').val(newVal);
         }
+    })
+}
+
+if ($('#advantages').length) {
+    $('#two-links').click(function () {
+        window.open('https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
+        $(location).attr('href', 'https://m.me/114032010428817?ref=max');
     })
 }
