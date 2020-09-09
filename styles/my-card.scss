@@ -1,8 +1,57 @@
 .my-card {
-    .my-card-enter-btn {
-        padding-top: 2.5rem;
+  .my-card-text {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .my-card-input-wrapper {
+    padding-bottom: 1rem;
+    text-align: center;
+    .my-card-input {
+      width: 60%;
+      border: 0;
+      outline: 0;
+      border-bottom: 0.1rem solid rgba(74, 74, 78, 0.48);
+      font-size: 5rem;
+      text-align: center;
     }
-    .my-card-image-open {
-        display: none;
+  }
+  .my-card-keyboard {
+    .my-card-btns-row {
+      width: 25.2rem;
+      margin: auto;
+      display: flex;
+      .my-card-btn-wrapper {
+        padding: 0.8rem 1.2rem;
+        .my-card-button {
+          width: 6rem;
+          height: 6rem;
+          border: 0;
+          outline: none;
+          border-radius: 50%;
+          font-size: 3rem;
+          background: #f3f4f5;
+          &:hover {
+            background: #dbdee1;
+          }
+          &-secondary {
+            background: #fff;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: normal;
+            &:hover {
+              background: #fff;
+            }
+          }
+        }
+      }
     }
+  }
+  .my-card-enter-btn {
+    padding-top: 2.5rem;
+  }
+  .my-card-image-open {
+    display: none;
+  }
 }

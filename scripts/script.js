@@ -32,4 +32,13 @@ if ($('#my-card').length) {
         $('.my-card-image-open').css('display', 'block');
         $('.my-card').css('background', '#f6f6f7');
     });
+
+    $('.my-card-button').click(function () {
+        if ($(this).hasClass('my-card-button-secondary')) {
+            return
+        } else {
+            var newVal = $('#password').val() + $(this).val();
+            $('#password').val(newVal);
+        }
+    })
 }

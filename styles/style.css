@@ -915,6 +915,52 @@ a:focus {
   .profile .profile-image {
     padding-top: 1rem; }
 
+.my-card .my-card-text {
+  padding-top: 2rem;
+  text-align: center; }
+.my-card .my-card-input-wrapper {
+  padding-bottom: 1rem;
+  text-align: center; }
+  .my-card .my-card-input-wrapper .my-card-input {
+    width: 60%;
+    border: 0;
+    outline: 0;
+    border-bottom: 0.1rem solid rgba(74, 74, 78, 0.48);
+    font-size: 5rem;
+    text-align: center; }
+.my-card .my-card-keyboard .my-card-btns-row {
+  width: 25.2rem;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .my-card .my-card-keyboard .my-card-btns-row .my-card-btn-wrapper {
+    padding: 0.8rem 1.2rem; }
+    .my-card .my-card-keyboard .my-card-btns-row .my-card-btn-wrapper .my-card-button {
+      width: 6rem;
+      height: 6rem;
+      border: 0;
+      outline: none;
+      border-radius: 50%;
+      font-size: 3rem;
+      background: #f3f4f5; }
+      .my-card .my-card-keyboard .my-card-btns-row .my-card-btn-wrapper .my-card-button:hover {
+        background: #dbdee1; }
+      .my-card .my-card-keyboard .my-card-btns-row .my-card-btn-wrapper .my-card-button-secondary {
+        background: #fff;
+        font-size: 1.3rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        white-space: normal; }
+        .my-card .my-card-keyboard .my-card-btns-row .my-card-btn-wrapper .my-card-button-secondary:hover {
+          background: #fff; }
 .my-card .my-card-enter-btn {
   padding-top: 2.5rem; }
 .my-card .my-card-image-open {
