@@ -1,0 +1,58 @@
+.card-conditions {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  font-size: 1.5rem;
+  .card-conditions-text {
+    font-size: 1.5rem;
+  }
+  .card-conditions-color {
+    color: #6d7986;
+  }
+  .mob-container {
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 1.6rem;
+  }
+  .card-conditions-header {
+    display: flex;
+    padding-bottom: 2.8rem;
+  }
+  .card-conditions-heading-container {
+    padding-top: 1.2rem;
+  }
+  .card-conditions-heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .card-conditions-image {
+    width: 2.4rem;
+  }
+  .card-conditions-tags {
+    padding-top: 1.2rem;
+    padding-bottom: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    .card-conditions-tag {
+      height: 3.2rem;
+      padding: 0 1rem;
+      margin: 0 0.8rem 1.2rem 0;
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+      border-radius: 1.6rem;
+      background: #f3f4f5;
+    }
+  }
+  .card-conditions-agreement {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .card-conditions-agreement-text {
+          font-size: 1.7rem;
+      }
+  }
+  .card-conditions-agreement-extended {
+      padding-top: 2rem;
+  }
+}
