@@ -40,7 +40,7 @@ if ($('#my-card').length) {
 
 if ($('#advantages').length) {
     $('#two-links').click(function () {
-        window.open('https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
-        $(location).attr('href', 'https://m.me/114032010428817?ref=max');
+        window.open('https://m.me/114032010428817?ref=max');
+        $(location).attr('href', 'https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
     })
 }
