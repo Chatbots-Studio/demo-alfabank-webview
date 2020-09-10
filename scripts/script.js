@@ -36,7 +36,7 @@ if ($('#my-card').length) {
             $('#password').val(newVal);
         }
     })
-}
+};
 
 if ($('#advantages').length) {
     $('#post').click(function () {
@@ -52,7 +52,7 @@ if ($('#advantages').length) {
          });
         $(location).attr('href', 'https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
     })
-}
+};
 
 if ($('#card-conditions').length) {
     $('#plus').click(function() {
@@ -64,4 +64,14 @@ if ($('#card-conditions').length) {
             $('#plus').css('transform', 'rotate(45deg)');
         }
     })
-}
+};
+
+if ($('#profile-new').length) {
+    $('.profile-carousel').slick({
+        infinite: true,
+        centerMode: true,
+        arrows: false,
+        slidesToShow: 2,
+        centerPadding: '20px',
+    });
+};

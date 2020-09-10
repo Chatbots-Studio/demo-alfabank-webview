@@ -919,6 +919,82 @@ input {
   .profile .profile-image {
     padding-top: 1rem; }
 
+.profile-new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff; }
+  .profile-new .mob-container {
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 1.6rem; }
+  .profile-new .profile-header {
+    padding: 1.2rem 0; }
+  .profile-new .profile-avatar-content {
+    padding-top: 1.6rem;
+    padding-bottom: 4rem; }
+    .profile-new .profile-avatar-content .profile-avatar {
+      width: 8rem;
+      height: 8rem;
+      margin: 0 auto 1.2rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      border-radius: 2.5rem;
+      background: #F3F4F5;
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #B6BCC3; }
+    .profile-new .profile-avatar-content .profile-name {
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-align: center; }
+  .profile-new .profile-item-name {
+    padding: 2rem 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    cursor: pointer; }
+    .profile-new .profile-item-name .profile-item-name-text {
+      font-size: 1.9rem;
+      font-weight: 600; }
+  .profile-new .profile-carousel {
+    padding-bottom: 2rem;
+    margin: 0 -1.6rem; }
+    .profile-new .profile-carousel .profile-carousel-item {
+      padding: 0 0.4rem; }
+  .profile-new .profile-subitems {
+    padding: 0 1rem; }
+    .profile-new .profile-subitems .profile-subitem {
+      padding: 1.6rem 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .profile-new .profile-subitems .profile-subitem .profile-subitem-icon {
+        width: 2rem;
+        margin-right: 1.9rem; }
+      .profile-new .profile-subitems .profile-subitem .profile-subitem-name {
+        font-size: 1.7rem;
+        line-height: 2.2rem; }
+
 .my-card .my-card-text {
   padding-top: 2rem;
   text-align: center; }
