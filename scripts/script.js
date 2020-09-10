@@ -74,4 +74,8 @@ if ($('#profile-new').length) {
         slidesToShow: 2,
         centerPadding: '20px',
     });
+
+    var name = $(location).attr('search');
+    var newName = decodeURIComponent(name.replace('?', '').replace('_', ' '));
+    $('#username').text(newName);
 };
