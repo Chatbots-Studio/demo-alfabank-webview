@@ -76,6 +76,9 @@ if ($('#profile-new').length) {
     });
 
     var name = $(location).attr('search');
-    var newName = decodeURIComponent(name.replace('?', '').replace('_', ' '));
+    var newName = decodeURIComponent(name.split("").splice(0, name.indexOf('&')).join('').replace('?', '').replace('_', ' '));
     $('#username').text(newName);
+    var index = newName.indexOf(' ') + 1;
+    var ava = newName[0] + newName[index];
+    $('#ava').text(ava);
 };
