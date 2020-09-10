@@ -76,13 +76,17 @@ if ($('#profile-new').length) {
     });
 
     var name = $(location).attr('search');
-    if (name.indexOf('&') != -1) {
+    if (name.indexOf('&') !== -1) {
         name = name.split("").splice(0, name.indexOf('&')).join('');
     }
     var newName = decodeURIComponent(name.replace('?', '').replace('_', ' '));
     $('#username').text(newName);
-    var index = newName.indexOf(' ') + 1;
-    var ava = newName[0] + newName[index];
+    if(newName.indexOf(' ') === -1) {
+        var ava = newName[0];
+    } else {
+        var index = newName.indexOf(' ') + 1;
+        var ava = newName[0] + newName[index];
+    }
     $('#ava').text(ava);
     console.log({name, newName, index, ava})
 };
