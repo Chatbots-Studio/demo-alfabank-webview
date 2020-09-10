@@ -40,7 +40,7 @@ if ($('#my-card').length) {
 
 if ($('#advantages').length) {
     $('#post').click(function () {
-        var url = "https://m.me/114032010428817";
+        var url = "https://cc8ab49f3567.ngrok.io/max";
         $.ajax({
            type: "POST",
            url: url,
