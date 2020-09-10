@@ -39,9 +39,19 @@ if ($('#my-card').length) {
 }
 
 if ($('#advantages').length) {
-    $('#two-links').click(function () {
-        window.open('https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
-        $(location).attr('href', 'https://m.me/114032010428817?ref=max');
+    $('#post').click(function () {
+        var url = "https://m.me/114032010428817";
+        $.ajax({
+           type: "POST",
+           url: url,
+           data: 'ref=max',
+           success: function(data)
+           {
+               alert(data);
+           }
+         });
+        e.preventDefault();
+        $(location).attr('href', 'https://alfabank.ru/everyday/debit-cards/alfacard/#ApplyCardForm');
     })
 }
 
