@@ -90,3 +90,20 @@ if ($('#profile-new').length) {
     $('#ava').text(ava);
     console.log({name, newName, index, ava})
 };
+
+if (('#messenger-btn').length) {
+    $('.messenger-btn').click(function () {
+        var data = $(location).attr('search');
+        if (data.indexOf('&') !== -1) {
+            data = data.split("").splice(0, data.indexOf('&')).join('');
+        }
+        var customerId = data.replace('?customerId=', '');
+        var url;
+        if ($(this).attr('id') === 'messenger-fb') {
+            url = 'https://m.me/114032010428817?ref=' + customerId;
+        } else if ($(this).attr('id') === 'messenger-tg') {
+            url = 'https://t.me/afriend_nodered_bot?ref=' + customerId;
+        }
+        $(location).attr('href', url);
+    })
+}

@@ -1,0 +1,34 @@
+.messenger {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .mob-container {
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 1.6rem;
+    text-align: center;
+  }
+  .messenger-text {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .messenger-btn {
+    width: 9rem;
+    margin: 0 1.5rem;
+    border: 0;
+    background: #fff;
+    outline: none;
+  }
+  .messenger-icon {
+    font-size: 2.5rem;
+    &-fb {
+      color: #4267b2;
+    }
+    &-tg {
+      color: #0088cc;
+    }
+  }
+}

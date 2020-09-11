@@ -1125,3 +1125,37 @@ input {
   .card-conditions #plus {
     -webkit-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out; }
+
+.messenger {
+  min-height: 100vh;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .messenger .mob-container {
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 1.6rem;
+    text-align: center; }
+  .messenger .messenger-text {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center; }
+  .messenger .messenger-btn {
+    width: 9rem;
+    margin: 0 1.5rem;
+    border: 0;
+    background: #fff;
+    outline: none; }
+  .messenger .messenger-icon {
+    font-size: 2.5rem; }
+    .messenger .messenger-icon-fb {
+      color: #4267b2; }
+    .messenger .messenger-icon-tg {
+      color: #0088cc; }
