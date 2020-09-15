@@ -137,6 +137,55 @@
     .fund-button-primary {
       background-color: #ee3124;
       margin-bottom: 0.6rem;
+      &.blue-button {
+        background: #3f51b5;
+      }
+    }
+  }
+  /*new styles*/
+  &.transfer-new {
+    .fund-options {
+      .fund-option {
+        .fund-option-circle {
+          &.active {
+            background: #3f51b5;
+          }
+        }
+      }
+    }
+    // .fund-button-wrapper .fund-button-primary {
+    //   background: #3f51b5;
+    // }
+    .fund-cards {
+      padding-top: 0;
+      margin-top: 1.4rem;
+      .fund-cards-arrow-circle {
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .ratio-container {
+      position: relative;
+      width: 49%;
+      padding-top: 31.56%;
+      .fund-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+        &.fund-input-card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .fund-input-wrapper {
+            padding-top: 0;
+          }
+        }
+      }
     }
   }
 }
