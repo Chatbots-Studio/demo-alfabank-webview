@@ -44,6 +44,21 @@
       background: #f3f4f5;
     }
   }
+  .card-conditions-tags-new {
+    padding-top: 1.2rem;
+    padding-bottom: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    .card-conditions-tag {
+      min-height: 3.2rem;
+      padding: 0 1rem;
+      margin: 0 0.8rem 1.2rem 0;
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+      border-radius: 1.6rem;
+      background: #f3f4f5;
+    }
+  }
   .card-conditions-agreement {
       display: flex;
       align-items: center;

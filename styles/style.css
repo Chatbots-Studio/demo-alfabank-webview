@@ -748,7 +748,8 @@ input {
   padding: 0 0.7rem; }
 
 .fund {
-  background: #fff; }
+  background: #fff;
+  /*new styles*/ }
   .fund .fund-color {
     color: #a5a6a6; }
   .fund .fund-bold {
@@ -884,6 +885,43 @@ input {
     .fund .fund-button-wrapper .fund-button-primary {
       background-color: #ee3124;
       margin-bottom: 0.6rem; }
+      .fund .fund-button-wrapper .fund-button-primary.blue-button {
+        background: #3f51b5; }
+  .fund.transfer-new .fund-options .fund-option .fund-option-circle.active {
+    background: #3f51b5; }
+  .fund.transfer-new .fund-cards {
+    padding-top: 0;
+    margin-top: 1.4rem; }
+    .fund.transfer-new .fund-cards .fund-cards-arrow-circle {
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+  .fund.transfer-new .ratio-container {
+    position: relative;
+    width: 49%;
+    padding-top: 31.56%; }
+    .fund.transfer-new .ratio-container .fund-card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: auto;
+      border-radius: 0.8rem; }
+      .fund.transfer-new .ratio-container .fund-card.fund-input-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .fund.transfer-new .ratio-container .fund-card.fund-input-card .fund-input-wrapper {
+          padding-top: 0; }
 
 @media screen and (max-width: 374px) {
   .fund .fund-cards .fund-card.fund-input-card {
@@ -1054,6 +1092,8 @@ input {
   padding-top: 2.5rem; }
 .my-card .my-card-image-open {
   display: none; }
+  .my-card .my-card-image-open .my-card-image-open-padding {
+    padding-top: 2rem; }
 
 .help .help-image {
   padding: 3rem 2rem; }
@@ -1101,6 +1141,22 @@ input {
         flex-wrap: wrap; }
     .card-conditions .card-conditions-tags .card-conditions-tag {
       height: 3.2rem;
+      padding: 0 1rem;
+      margin: 0 0.8rem 1.2rem 0;
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+      border-radius: 1.6rem;
+      background: #f3f4f5; }
+  .card-conditions .card-conditions-tags-new {
+    padding-top: 1.2rem;
+    padding-bottom: 3.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .card-conditions .card-conditions-tags-new .card-conditions-tag {
+      min-height: 3.2rem;
       padding: 0 1rem;
       margin: 0 0.8rem 1.2rem 0;
       font-size: 1.5rem;

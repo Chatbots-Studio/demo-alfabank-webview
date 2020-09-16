@@ -56,5 +56,8 @@
   }
   .my-card-image-open {
     display: none;
+    .my-card-image-open-padding {
+      padding-top: 2rem;
+    }
   }
 }
